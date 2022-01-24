@@ -1,0 +1,32 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst Lab7.NIOS_II_Processor.cpu -pg 1
+preplace inst Lab7.rooms_manager_0 -pg 1 -lvl 3 -y 190
+preplace inst Lab7.NIOS_II_Processor.reset_bridge -pg 1
+preplace inst Lab7.NIOS_II_Processor.clock_bridge -pg 1
+preplace inst Lab7.Timer_0 -pg 1 -lvl 3 -y 390
+preplace inst Lab7.Hex_3_4 -pg 1 -lvl 3 -y 610
+preplace inst Lab7.clk_0 -pg 1 -lvl 2 -y 270
+preplace inst Lab7.pushbutton -pg 1 -lvl 3 -y 70
+preplace inst Lab7.NIOS_II_Processor -pg 1 -lvl 1 -y 80
+preplace inst Lab7.leds -pg 1 -lvl 3 -y 890
+preplace inst Lab7.Hex_5_6 -pg 1 -lvl 3 -y 790
+preplace inst Lab7.sw_sliders -pg 1 -lvl 3 -y 490
+preplace inst Lab7.JTAG_UART -pg 1 -lvl 3 -y 290
+preplace inst Lab7.Hex_1_2 -pg 1 -lvl 3 -y 990
+preplace inst Lab7 -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst Lab7.OnChip_Memory -pg 1 -lvl 3 -y 710
+preplace netloc EXPORT<net_container>Lab7</net_container>(SLAVE)Lab7.hex_3_4,(SLAVE)Hex_3_4.external_connection) 1 0 3 NJ 640 NJ 640 NJ
+preplace netloc INTERCONNECT<net_container>Lab7</net_container>(SLAVE)Hex_5_6.s1,(SLAVE)leds.s1,(SLAVE)pushbutton.s1,(SLAVE)rooms_manager_0.avalon_slave_0,(MASTER)NIOS_II_Processor.instruction_master,(SLAVE)NIOS_II_Processor.debug_mem_slave,(MASTER)NIOS_II_Processor.data_master,(SLAVE)JTAG_UART.avalon_jtag_slave,(SLAVE)OnChip_Memory.s1,(SLAVE)Hex_1_2.s1,(SLAVE)Timer_0.s1,(SLAVE)sw_sliders.s1,(SLAVE)Hex_3_4.s1) 1 0 3 130 220 530 120 830
+preplace netloc EXPORT<net_container>Lab7</net_container>(SLAVE)sw_sliders.external_connection,(SLAVE)Lab7.sw_sliders) 1 0 3 NJ 520 NJ 520 NJ
+preplace netloc EXPORT<net_container>Lab7</net_container>(SLAVE)Hex_5_6.external_connection,(SLAVE)Lab7.hex_5_6) 1 0 3 NJ 820 NJ 820 NJ
+preplace netloc INTERCONNECT<net_container>Lab7</net_container>(SLAVE)Hex_5_6.reset,(SLAVE)JTAG_UART.reset,(SLAVE)Hex_1_2.reset,(SLAVE)leds.reset,(SLAVE)Timer_0.reset,(MASTER)NIOS_II_Processor.debug_reset_request,(SLAVE)sw_sliders.reset,(MASTER)clk_0.clk_reset,(SLAVE)clk_0.clk_in_reset,(SLAVE)pushbutton.reset,(SLAVE)OnChip_Memory.reset1,(SLAVE)NIOS_II_Processor.reset,(SLAVE)Hex_3_4.reset,(SLAVE)rooms_manager_0.reset_reset) 1 0 3 150 240 510 140 810
+preplace netloc FAN_OUT<net_container>Lab7</net_container>(SLAVE)sw_sliders.clk,(SLAVE)JTAG_UART.clk,(SLAVE)Hex_3_4.clk,(SLAVE)NIOS_II_Processor.clk,(SLAVE)leds.clk,(MASTER)clk_0.clk,(SLAVE)pushbutton.clk,(SLAVE)rooms_manager_0.clk_clk,(SLAVE)Timer_0.clk,(SLAVE)Hex_1_2.clk,(SLAVE)Hex_5_6.clk,(SLAVE)OnChip_Memory.clk1) 1 0 3 110 260 NJ 260 790
+preplace netloc FAN_OUT<net_container>Lab7</net_container>(MASTER)NIOS_II_Processor.irq,(SLAVE)pushbutton.irq,(SLAVE)JTAG_UART.irq,(SLAVE)sw_sliders.irq,(SLAVE)Timer_0.irq) 1 1 2 NJ 170 850
+preplace netloc EXPORT<net_container>Lab7</net_container>(SLAVE)Lab7.clk,(SLAVE)clk_0.clk_in) 1 0 2 NJ 300 NJ
+preplace netloc EXPORT<net_container>Lab7</net_container>(SLAVE)Lab7.pushbutton,(SLAVE)pushbutton.external_connection) 1 0 3 NJ 40 NJ 100 NJ
+preplace netloc EXPORT<net_container>Lab7</net_container>(SLAVE)Lab7.rooms,(SLAVE)rooms_manager_0.conduit_end) 1 0 3 NJ 280 NJ 240 NJ
+preplace netloc EXPORT<net_container>Lab7</net_container>(SLAVE)leds.external_connection,(SLAVE)Lab7.leds) 1 0 3 NJ 920 NJ 920 NJ
+preplace netloc EXPORT<net_container>Lab7</net_container>(SLAVE)Hex_1_2.external_connection,(SLAVE)Lab7.hex_1_2) 1 0 3 NJ 1020 NJ 1020 NJ
+levelinfo -pg 1 0 80 1070
+levelinfo -hier Lab7 90 270 620 910 1060
