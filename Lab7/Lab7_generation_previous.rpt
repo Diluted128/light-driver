@@ -1,0 +1,166 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\intelFPGA_lite\17.0\Lab7\Lab7.qsys --block-symbol-file --output-directory=C:\intelFPGA_lite\17.0\Lab7\Lab7 --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Lab7/Lab7.qsys
+Progress: Reading input file
+Progress: Adding Hex_1_2 [altera_avalon_pio 17.0]
+Progress: Parameterizing module Hex_1_2
+Progress: Adding Hex_3_4 [altera_avalon_pio 17.0]
+Progress: Parameterizing module Hex_3_4
+Progress: Adding Hex_5_6 [altera_avalon_pio 17.0]
+Progress: Parameterizing module Hex_5_6
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 17.0]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding NIOS_II_Processor [altera_nios2_gen2 17.0]
+Progress: Parameterizing module NIOS_II_Processor
+Progress: Adding OnChip_Memory [altera_avalon_onchip_memory2 17.0]
+Progress: Parameterizing module OnChip_Memory
+Progress: Adding Timer_0 [altera_avalon_timer 17.0]
+Progress: Parameterizing module Timer_0
+Progress: Adding clk_0 [clock_source 17.0]
+Progress: Parameterizing module clk_0
+Progress: Adding leds [altera_avalon_pio 17.0]
+Progress: Parameterizing module leds
+Progress: Adding pushbutton [altera_avalon_pio 17.0]
+Progress: Parameterizing module pushbutton
+Progress: Adding rooms_manager_0 [rooms_manager 1.0]
+Progress: Parameterizing module rooms_manager_0
+Progress: Adding sw_sliders [altera_avalon_pio 17.0]
+Progress: Parameterizing module sw_sliders
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Lab7.JTAG_UART: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: Lab7.pushbutton: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Lab7.sw_sliders: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\intelFPGA_lite\17.0\Lab7\Lab7.qsys --synthesis=VHDL --output-directory=C:\intelFPGA_lite\17.0\Lab7\Lab7\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Lab7/Lab7.qsys
+Progress: Reading input file
+Progress: Adding Hex_1_2 [altera_avalon_pio 17.0]
+Progress: Parameterizing module Hex_1_2
+Progress: Adding Hex_3_4 [altera_avalon_pio 17.0]
+Progress: Parameterizing module Hex_3_4
+Progress: Adding Hex_5_6 [altera_avalon_pio 17.0]
+Progress: Parameterizing module Hex_5_6
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 17.0]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding NIOS_II_Processor [altera_nios2_gen2 17.0]
+Progress: Parameterizing module NIOS_II_Processor
+Progress: Adding OnChip_Memory [altera_avalon_onchip_memory2 17.0]
+Progress: Parameterizing module OnChip_Memory
+Progress: Adding Timer_0 [altera_avalon_timer 17.0]
+Progress: Parameterizing module Timer_0
+Progress: Adding clk_0 [clock_source 17.0]
+Progress: Parameterizing module clk_0
+Progress: Adding leds [altera_avalon_pio 17.0]
+Progress: Parameterizing module leds
+Progress: Adding pushbutton [altera_avalon_pio 17.0]
+Progress: Parameterizing module pushbutton
+Progress: Adding rooms_manager_0 [rooms_manager 1.0]
+Progress: Parameterizing module rooms_manager_0
+Progress: Adding sw_sliders [altera_avalon_pio 17.0]
+Progress: Parameterizing module sw_sliders
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Lab7.JTAG_UART: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: Lab7.pushbutton: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Lab7.sw_sliders: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Lab7: Generating Lab7 "Lab7" for QUARTUS_SYNTH
+Info: Hex_1_2: Starting RTL generation for module 'Lab7_Hex_1_2'
+Info: Hex_1_2:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Lab7_Hex_1_2 --dir=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0001_Hex_1_2_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0001_Hex_1_2_gen//Lab7_Hex_1_2_component_configuration.pl  --do_build_sim=0  ]
+Info: Hex_1_2: Done RTL generation for module 'Lab7_Hex_1_2'
+Info: Hex_1_2: "Lab7" instantiated altera_avalon_pio "Hex_1_2"
+Info: JTAG_UART: Starting RTL generation for module 'Lab7_JTAG_UART'
+Info: JTAG_UART:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=Lab7_JTAG_UART --dir=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0002_JTAG_UART_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0002_JTAG_UART_gen//Lab7_JTAG_UART_component_configuration.pl  --do_build_sim=0  ]
+Info: JTAG_UART: Done RTL generation for module 'Lab7_JTAG_UART'
+Info: JTAG_UART: "Lab7" instantiated altera_avalon_jtag_uart "JTAG_UART"
+Info: NIOS_II_Processor: "Lab7" instantiated altera_nios2_gen2 "NIOS_II_Processor"
+Info: OnChip_Memory: Starting RTL generation for module 'Lab7_OnChip_Memory'
+Info: OnChip_Memory:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=Lab7_OnChip_Memory --dir=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0003_OnChip_Memory_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0003_OnChip_Memory_gen//Lab7_OnChip_Memory_component_configuration.pl  --do_build_sim=0  ]
+Info: OnChip_Memory: Done RTL generation for module 'Lab7_OnChip_Memory'
+Info: OnChip_Memory: "Lab7" instantiated altera_avalon_onchip_memory2 "OnChip_Memory"
+Info: Timer_0: Starting RTL generation for module 'Lab7_Timer_0'
+Info: Timer_0:   Generation command is [exec C:/intelFPGA_lite/17.0/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/17.0/quartus/bin64//perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=Lab7_Timer_0 --dir=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0004_Timer_0_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0004_Timer_0_gen//Lab7_Timer_0_component_configuration.pl  --do_build_sim=0  ]
+Info: Timer_0: Done RTL generation for module 'Lab7_Timer_0'
+Info: Timer_0: "Lab7" instantiated altera_avalon_timer "Timer_0"
+Info: leds: Starting RTL generation for module 'Lab7_leds'
+Info: leds:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Lab7_leds --dir=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0005_leds_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0005_leds_gen//Lab7_leds_component_configuration.pl  --do_build_sim=0  ]
+Info: leds: Done RTL generation for module 'Lab7_leds'
+Info: leds: "Lab7" instantiated altera_avalon_pio "leds"
+Info: pushbutton: Starting RTL generation for module 'Lab7_pushbutton'
+Info: pushbutton:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Lab7_pushbutton --dir=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0006_pushbutton_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0006_pushbutton_gen//Lab7_pushbutton_component_configuration.pl  --do_build_sim=0  ]
+Info: pushbutton: Done RTL generation for module 'Lab7_pushbutton'
+Info: pushbutton: "Lab7" instantiated altera_avalon_pio "pushbutton"
+Info: rooms_manager_0: "Lab7" instantiated rooms_manager "rooms_manager_0"
+Info: sw_sliders: Starting RTL generation for module 'Lab7_sw_sliders'
+Info: sw_sliders:   Generation command is [exec C:/intelfpga_lite/17.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Lab7_sw_sliders --dir=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0008_sw_sliders_gen/ --quartus_dir=C:/intelfpga_lite/17.0/quartus --verilog --config=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0008_sw_sliders_gen//Lab7_sw_sliders_component_configuration.pl  --do_build_sim=0  ]
+Info: sw_sliders: Done RTL generation for module 'Lab7_sw_sliders'
+Info: sw_sliders: "Lab7" instantiated altera_avalon_pio "sw_sliders"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "Lab7" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "Lab7" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "Lab7" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'Lab7_NIOS_II_Processor_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/17.0/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/17.0/quartus/bin64//perl/lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/17.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/17.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/17.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/17.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=Lab7_NIOS_II_Processor_cpu --dir=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0011_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/17.0/quartus/bin64/ --verilog --config=C:/Users/WOJCIE~1/AppData/Local/Temp/alt9005_3747671746428773123.dir/0011_cpu_gen//Lab7_NIOS_II_Processor_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2022.01.13 15:06:04 (*) Starting Nios II generation
+Info: cpu: # 2022.01.13 15:06:04 (*)   Checking for plaintext license.
+Info: cpu: # 2022.01.13 15:06:05 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/17.0/quartus/bin64/
+Info: cpu: # 2022.01.13 15:06:05 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2022.01.13 15:06:05 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2022.01.13 15:06:05 (*)   Plaintext license not found.
+Info: cpu: # 2022.01.13 15:06:05 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2022.01.13 15:06:05 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2022.01.13 15:06:05 (*)   Creating all objects for CPU
+Info: cpu: # 2022.01.13 15:06:06 (*)   Generating RTL from CPU objects
+Info: cpu: # 2022.01.13 15:06:06 (*)   Creating plain-text RTL
+Info: cpu: # 2022.01.13 15:06:07 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'Lab7_NIOS_II_Processor_cpu'
+Info: cpu: "NIOS_II_Processor" instantiated altera_nios2_gen2_unit "cpu"
+Info: NIOS_II_Processor_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "NIOS_II_Processor_data_master_translator"
+Info: JTAG_UART_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "JTAG_UART_avalon_jtag_slave_translator"
+Info: NIOS_II_Processor_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "NIOS_II_Processor_data_master_agent"
+Info: JTAG_UART_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "JTAG_UART_avalon_jtag_slave_agent"
+Info: JTAG_UART_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "JTAG_UART_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: rooms_manager_0_avalon_slave_0_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "rooms_manager_0_avalon_slave_0_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/intelFPGA_lite/17.0/Lab7/Lab7/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/intelFPGA_lite/17.0/Lab7/Lab7/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/intelFPGA_lite/17.0/Lab7/Lab7/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rooms_manager_0_avalon_slave_0_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "rooms_manager_0_avalon_slave_0_rsp_width_adapter"
+Info: Reusing file C:/intelFPGA_lite/17.0/Lab7/Lab7/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/intelFPGA_lite/17.0/Lab7/Lab7/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_001: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_001"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_001" instantiated error_adapter "error_adapter_0"
+Info: Lab7: Done "Lab7" with 38 modules, 60 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

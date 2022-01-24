@@ -1,0 +1,365 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "hex_1_2_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[7]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[8]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[9]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[10]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[11]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[12]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_1_2_export[13]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[7]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[8]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[9]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[10]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[11]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[12]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_3_4_export[13]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[7]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[8]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[9]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[10]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[11]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[12]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_5_6_export[13]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_export[4]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_export[5]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_export[6]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_export[7]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_export[8]",
+					"strict" : false
+				},
+				{
+					"name" : "leds_export[9]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_hex3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rooms_leds_out",
+					"strict" : false
+				},
+				{
+					"name" : "clk_clk",
+					"strict" : false
+				},
+				{
+					"name" : "sw_sliders_export[8]",
+					"strict" : false
+				},
+				{
+					"name" : "sw_sliders_export[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sw_sliders_export[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sw_sliders_export[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sw_sliders_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sw_sliders_export[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sw_sliders_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sw_sliders_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sw_sliders_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sw_sliders_export[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pushbutton_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pushbutton_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pushbutton_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pushbutton_export[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
